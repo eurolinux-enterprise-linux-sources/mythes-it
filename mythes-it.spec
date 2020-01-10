@@ -1,7 +1,7 @@
 Name: mythes-it
 Summary: Italian thesaurus
 Version: 2.0.9l
-Release: 10%{?dist}
+Release: 9%{?dist}
 Source: http://downloads.sourceforge.net/sourceforge/linguistico/thesaurus2_it_02_09_l_2008_11_29.zip
 Group: Applications/Text
 URL: http://linguistico.sourceforge.net/pages/thesaurus_italiano.html
@@ -51,9 +51,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/mythes/*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.0.9l-10
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.0.9l-9
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
